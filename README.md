@@ -32,3 +32,16 @@ rules
 * {} embed variables
 * clasName
 * inline style
+
+
+7/10/2025
+
+1. form 
+2. event 
+3.controlled comp
+
+ task:
+ 1. name input in form  controll and handle
+ 2. event onchange handle -- h1 -- msg,,  input - message change  update
+ 3.  show - button - click  h1-- welcome
+ 

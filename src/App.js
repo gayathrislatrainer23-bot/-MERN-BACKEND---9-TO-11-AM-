@@ -1,6 +1,7 @@
 
 import './App.css';
-import Count from './components/Count';
+import SampleForm from './components/SampleForm';
+// import Count from './components/Count';
 // import Greeting from './components/Greeting';
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
   return (
     <div className="App">
 {/* <Greeting  name1 ={name1} /> */}
-<Count/>
+{/* <Count/> */}
+<SampleForm/>
     </div>
   
   );
