@@ -14,10 +14,11 @@ main.js -- app entry point
 App.jsx -- main react component -- parsel casing
 package.json -- keep meta data of dependencies
 
-4. components - bulding block
+4. components - building block
 * class component -- old way
 * functional component -- new way
---- js function return jsx
+---> js function return jsx
+
 function App () {
 return (
 jsx
@@ -28,7 +29,6 @@ jsx
 
 rules
 * one parent element
-
 * {} embed variables
 * clasName
 * inline style
@@ -38,10 +38,16 @@ rules
 
 1. form 
 2. event 
-3.controlled comp
+3. controlled comp
 
  task:
  1. name input in form  controll and handle
  2. event onchange handle -- h1 -- msg,,  input - message change  update
  3.  show - button - click  h1-- welcome
  
+8/10/2025
+
+1. conditional operator
+2. task to 
+     LoginForm 
+     1. email , password , user(obj) in app.js  pass to  LoginForm   , check from browser value to use (object)
