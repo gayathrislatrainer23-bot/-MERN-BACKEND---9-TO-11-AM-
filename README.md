@@ -51,3 +51,7 @@ rules
 2. task to 
      LoginForm 
      1. email , password , user(obj) in app.js  pass to  LoginForm   , check from browser value to use (object)
+
+9/10/2025
+
+Test and doubt clearing 
