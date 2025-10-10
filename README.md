@@ -55,3 +55,29 @@ rules
 9/10/2025
 
 Test and doubt clearing 
+
+10/10/2025
+
+1. students.map(()=>(jsx)),
+2. useEffect
+--> side effect
+   1. useEffect(()=>(
+     code for side effect 
+     console.log('rendering the comp:')
+    ))
+     ---> run every time when the comp render
+
+   2. useEffect(()=>(
+     code for side effect 
+     console.log('rendering the comp:')
+    ),[])--> dependancy array
+      ---> only one time(intialy)
+const [fruits,setFruits] =useState("")
+  3. useEffect(()=>(
+     code for side effect 
+     console.log('rendering the comp:')
+    ),[fruits])
+    ---> when the state change then run
+
+3. Lifting State up  -- task 
+        explained the consept

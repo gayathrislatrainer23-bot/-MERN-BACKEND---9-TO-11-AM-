@@ -2,6 +2,7 @@
 import './App.css';
 import Login from './components/Login';
 import SampleForm from './components/SampleForm';
+import StudentList from './components/StudentList';
 // import Count from './components/Count';
 // import Greeting from './components/Greeting';
 
@@ -16,8 +17,9 @@ function App() {
     <div className="App">
 {/* <Greeting  name1 ={name1} /> */}
 {/* <Count/> */}
-<SampleForm/>
-<Login/>
+{/* <SampleForm/>
+<Login/> */}
+<StudentList/>
     </div>
   
   );
