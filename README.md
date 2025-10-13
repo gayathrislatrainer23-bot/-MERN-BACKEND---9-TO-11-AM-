@@ -85,3 +85,12 @@ const [fruits,setFruits] =useState("")
 13/10/2025
 1. object listing
 2. test
+
+3. 1. Table Task
+ Create a JSX component that shows a student details table.
+ Columns: Roll No, Name, Grade.
+ Add at least 3 rows with sample data.
+ Use className="student-table" for the table.
+
+
+
