@@ -6,6 +6,7 @@ const SampleForm = () => {
 
 const HandleSubmit =(event)=>{
  event.preventDefault()
+ 
      console.log(event,"event")
  alert(`${email}`, )
 }

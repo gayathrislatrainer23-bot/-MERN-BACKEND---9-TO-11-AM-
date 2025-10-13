@@ -3,11 +3,18 @@ import { useEffect, useState } from "react";
 const StudentList =()=>{
     let students = ["Manu","Balu","Venu","Renu"]
     const[studentstatus,setStudentstatus]= useState("studying");
+//   useEffect(()=>{
+//         console.log('StudentList rendering, ')
+//     })
+//   useEffect(()=>{
+//         console.log('StudentList rendering only once')
+//     },[])
     useEffect(()=>{
         console.log('StudentList rendering, changing status')
     },[studentstatus])
+
     return(
-        <div>
+        <div style={{background:"green"}}>
         <ul>
             {/* <li>"Manu"</li>
             <li>"Balu"</li>

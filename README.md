@@ -80,4 +80,8 @@ const [fruits,setFruits] =useState("")
     ---> when the state change then run
 
 3. Lifting State up  -- task 
-        explained the consept
+        explained the concept
+
+13/10/2025
+1. object listing
+2. test
