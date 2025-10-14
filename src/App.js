@@ -2,12 +2,16 @@
 import './App.css';
 // import Login from './components/Login';
 // import SampleForm from './components/SampleForm';
-import StudentList from './components/StudentList';
-// import Count from './components/Count';
-import Greeting from './components/Greeting';
+// import StudentList from './components/StudentList';
+// // import Count from './components/Count';
+// import Greeting from './components/Greeting';
+import Home from './pages/Home';
+import Login from './components/Login';
+import {BrowserRouter, Link, Route, Routes}  from "react-router-dom"
+import About from './pages/About';
 
 function App() {
-   let name1 = "Manu"
+  //  let name1 = "Manu"
   const user = {
     // name: 'Gayathri',
     email : " g@gmal.com",
@@ -18,12 +22,23 @@ function App() {
   }
   return (
     <div className="App">
-<Greeting  name1 ={name1} />
+{/* <Greeting  name1 ={name1} /> */}
 {/* <Count/> */}
 {/* <SampleForm/>
 <Login/> */}
-<StudentList/>
-<h1>{user.email}</h1>
+{/* <StudentList/> */}
+{/* <h1>{user.email}</h1> */}
+<BrowserRouter>
+<nav>
+  <Link  to="/home" >Home</Link>
+</nav>
+<Routes>
+  <Route path='/home'  element ={<Home/>}/>
+  <Route path='/'  element ={<Login/>}/>
+  <Route path='/about'  element ={<About/>}/>
+</Routes>
+</BrowserRouter>
+
     </div>
   
   );

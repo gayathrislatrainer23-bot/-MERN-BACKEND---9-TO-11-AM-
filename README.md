@@ -86,11 +86,26 @@ const [fruits,setFruits] =useState("")
 1. object listing
 2. test
 
-3. 1. Table Task
+3.Table Task
  Create a JSX component that shows a student details table.
  Columns: Roll No, Name, Grade.
  Add at least 3 rows with sample data.
  Use className="student-table" for the table.
+ students = [{
+  roll No:1, Name: "Manu",},
+  {},{}]
 
 
+14/10/2025
+1. Router dom
+2. home and about page using react
+3. Spa
+4. task:
+1. admindashboard and clientHome router
+Based on role, render the correct component (AdminDashboard or ClientHome).
+default admin user in app.js  
+
+ 2. students = [{
+  roll No:1, Name: "Manu", subject:["maths","Biology"]},
+  {},{}]
 
