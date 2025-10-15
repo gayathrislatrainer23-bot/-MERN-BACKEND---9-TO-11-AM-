@@ -112,4 +112,9 @@ default admin user in app.js
 15/10/2025
 1. Router dom Navigation
 2. Short questions
-3. Task:  
+3. Task:  today's task 3. Dropdown (Select) Task
+  Create a dropdown (<select>) to choose a student name.
+  Options: Anitha, Rahul, Deepak, Gayathri.
+  Default option: "Select a student".
+  Display below:
+ You selected: [student name]
