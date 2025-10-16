@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react"
+import {  useState } from "react"
 import axios from "axios";
 
 const  CreateUser =()=>{
-    // const [isSucess,setIsSucess ] =useState(null)
+    const [isSucess,setIsSucess ] =useState(null)
     const handleCreateUser= () =>{
         
         const userData ={
@@ -10,25 +10,28 @@ const  CreateUser =()=>{
             role:"React developer"
         }
         axios
-        .post("https://reqres.in/api/users", userData)
+        .post("https://jsonplaceholder.typicode.com/users", userData)
         .then((response) =>{
             console.log("user created", response)
-            // setIsSucess(true)
+             setIsSucess(true)
         })
         .catch((error) => {
             console.log("Error creating user:",error)
-            // setIsSucess(false)
+            setIsSucess(false)
         })
     }
-    // useEffect(() =>{
-        handleCreateUser()
-// },[])
+
 
 
     return(
         <>
 <button onClick={handleCreateUser}>Create User</button>
-{/* <h1>{isSucess? "user created sucessfully" : "Error creating user"}</h1> */}
+ {isSucess !== null && (
+<h1>
+ {isSucess ? "user created sucessfully" : "Error creating user" }</h1> 
+ ) 
+}
+
         </>
     )
 }

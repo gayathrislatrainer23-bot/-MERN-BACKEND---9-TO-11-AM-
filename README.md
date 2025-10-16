@@ -139,3 +139,9 @@ Other
 .catch((error)=> )
 
 <---CreateUser.jsx
+
+ 17/10/2025
+ 1. 
+ get api 
+ https://jsonplaceholder.typicode.com/users
+
