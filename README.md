@@ -118,3 +118,24 @@ default admin user in app.js
   Default option: "Select a student".
   Display below:
  You selected: [student name]
+
+ 16/10/2025
+1. crud operation 
+
+4. Radio Buttons Task
+Create a gender selection with radio buttons:
+Male
+Female
+Other
+5. Checkbox Task
+ Create checkboxes for subjects: Maths, Science, English.
+  Display checked values below as:
+ Selected Subjects: Maths, English
+
+
+2. Axios  
+-->   .post("api", req.body)
+.then((res)=>)
+.catch((error)=> )
+
+<---CreateUser.jsx
