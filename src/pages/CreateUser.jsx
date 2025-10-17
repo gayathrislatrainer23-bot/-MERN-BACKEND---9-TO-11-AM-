@@ -13,6 +13,7 @@ const  CreateUser =()=>{
         .post("https://jsonplaceholder.typicode.com/users", userData)
         .then((response) =>{
             console.log("user created", response)
+            // response.data.msg
              setIsSucess(true)
         })
         .catch((error) => {
@@ -21,10 +22,9 @@ const  CreateUser =()=>{
         })
     }
 
-
-
     return(
         <>
+        {/* form */}
 <button onClick={handleCreateUser}>Create User</button>
  {isSucess !== null && (
 <h1>

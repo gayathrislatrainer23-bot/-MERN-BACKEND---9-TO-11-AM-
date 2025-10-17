@@ -1,5 +1,5 @@
 Notes
-29/09/2025 -- 30/09/2025  --- 1/10/2025
+29/09/2025 -- 30/09/2025  --- 5/10/2025
 
 1. React- js library
 library- collection of pre-written code
@@ -141,7 +141,22 @@ Other
 <---CreateUser.jsx
 
  17/10/2025
- 1. 
- get api 
+1. introduced Material ui icons and other features
+https://mui.com/material-ui/material-icons
+
+2. Tailwind introduced
+https://v3.tailwindcss.com/docs/guides/create-react-app
+
+Api
+ https://jsonplaceholder.typicode.com/users -- post
+ 1. axios+useEffect+get api in admin dashboard +table
+
+ task : get api (Tuesday submition)
  https://jsonplaceholder.typicode.com/users
+ 
+revision
+reconcilation
+fagments
+reactmemo
+virtual Dom
 
