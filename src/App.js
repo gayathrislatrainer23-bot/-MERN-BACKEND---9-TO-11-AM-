@@ -12,6 +12,7 @@ import About from './pages/About';
 import Admin from './pages/Admin';
 import ClientHome from './pages/ClientHome';
 import LoginForm from './pages/Loginform';
+import Counter from './components/Counter';
 
 function App() {
   //  let name1 = "Manu"
@@ -37,7 +38,8 @@ function App() {
 </nav>
 <Routes>
   <Route path='/home'  element ={<Home/>}/>
-  <Route path='/'  element ={<LoginForm/>}/>
+  {/* <Route path='/'  element ={<LoginForm/>}/> */}
+  <Route path='/'  element ={<Counter/>}/>
   <Route path='/about'  element ={<About/>}/>
   <Route path='/Admin'  element ={<Admin/>}/>
   <Route path='/Client'  element ={<ClientHome/>}/>

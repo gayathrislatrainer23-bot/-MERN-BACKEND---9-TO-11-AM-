@@ -153,10 +153,12 @@ Api
 
  task : get api (Tuesday submition)
  https://jsonplaceholder.typicode.com/users
+ useEffect((code),[])
+ table
  
 revision
 reconcilation
-fagments
+fragment
 reactmemo
 virtual Dom
 
