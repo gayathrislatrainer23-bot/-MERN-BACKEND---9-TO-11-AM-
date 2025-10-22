@@ -162,3 +162,6 @@ fragment
 reactmemo
 virtual Dom
 
+22/10/2025
+1.redux useage
+  task:useCallBack - hook 
