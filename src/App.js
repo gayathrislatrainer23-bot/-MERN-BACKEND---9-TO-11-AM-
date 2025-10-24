@@ -13,6 +13,9 @@ import Admin from './pages/Admin';
 import ClientHome from './pages/ClientHome';
 import LoginForm from './pages/Loginform';
 import Counter from './components/Counter';
+import FruitSearchApp from './components/FruitSearchApp.jsx';
+import Reducer from './components/ReducerHook.jsx';
+import ReducerHook from './components/ReducerHook.jsx';
 
 function App() {
   //  let name1 = "Manu"
@@ -43,6 +46,9 @@ function App() {
   <Route path='/about'  element ={<About/>}/>
   <Route path='/Admin'  element ={<Admin/>}/>
   <Route path='/Client'  element ={<ClientHome/>}/>
+
+  <Route path='/FruitSearchApp'  element ={<FruitSearchApp/>}/>
+  <Route path='/UseReducer'  element ={<ReducerHook/>}/>
 </Routes>
 </BrowserRouter>
 
